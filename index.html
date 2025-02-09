@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Main-Container -->
+    <section class="contact-header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>EARTH</h1></div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-btn"> <i class="fas fa-bars menu-icon"></i>
+                </div>
+            </nav>
+
+            <div class="header-content">
+                <h1>EARTH</h1>
+                <P>ENDLESS POTENTIAL</P>
+                <button class="primary-btn">EXPLORE</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+     <section id="services" class="container">
+        <div class="service">
+            <h1>Services</h1>
+            <img src="./image/service-1.png" alt="">
+            <h1>Web Desing</h1>
+            <p>Custom web design for small businesses, we help you capture new 
+                audiences and increase your sales
+            </p>
+        </div>
+
+        <div class="service">
+            <img src="./image/service-2.png" alt="">
+            <h1>Graphic Desing</h1>
+            <p>Custom web design for small businesses, we help you capture new 
+                audiences and increase your sales
+            </p>
+        </div>
+        <div class="service">
+            <img src="./image/service-3.png" alt="">
+            <h1>Content Creation</h1>
+            <p>Custom web design for small businesses, we help you capture new 
+                audiences and increase your sales
+            </p>
+        </div>
+     </section>
+
+<!-- About Section -->
+     <section id="about" class="container">
+        <div class="about-content">
+            <h1>About Us</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat vitae placeat quam facilis. Doloribus esse et quibusdam, asperiores saepe, suscipit aliquid dolore blanditiis qui libero cupiditate, commodi dolorem ipsa vero!</p>
+        </div>
+        <div class="about-img">
+            <img src="./image/about.png" alt="">
+        </div>
+     </section>
+
+     <!-- Talk-to-us Section -->
+     <section id="talk-to-us">
+        <div class="talk-to-us-content">
+            <h1>Talk To Us</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt cumque soluta, atque voluptate aliquid molestias, ullam, dolores alias quisquam doloribus numquam corrupti ab officiis maiores. Quae recusandae maiores labore numquam!</p>
+            <button class="primary-btn">GET IN TOUCH</button>
+        </div>
+     </section>
+
+<!-- Footer-Section -->
+     <footer>
+        <ul class="footerlinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <h1 class="logo">EARTH</h1>
+        <p>2022 Earth. All right reserved.</p>
+     </footer>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>

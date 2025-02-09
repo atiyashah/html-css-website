@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <section class="contact-header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>EARTH</h1></div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-btn"><img src="./image/menu.svg" alt=""></div>
+            </nav>
+
+            <div class="header-content">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-us" class="container">
+        <form action="#">
+            <h1>Get in Touch</h1>
+
+            <div class="inputwrapper">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Email">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <button class="primary-btn">SEND NOW</button>
+            </div>
+        </form>
+
+        <div class="adress">
+            <h1>Talk to us</h1>
+
+            <div class="detailswrapper">
+                <div class="detail">
+                    <img src="./image.email.png" alt="">
+                    <div class="text">
+                        <h6>Email</h6>
+                        <p>something.example.com</p>
+                    </div>
+                </div>
+
+
+                <div class="detail">
+                    <img src="./image.phone.png" alt="">
+                    <div class="text">
+                        <h6>Phone Number</h6>
+                        <p>04758696937</p>
+                    </div>
+                </div>
+
+
+                <div class="detail">
+                    <img src="./image.location.png" alt="">
+                    <div class="text">
+                        <h6>Address</h6>
+                        <p>65784 Ocean Road, <br/>
+                            Malibu, CA, 90264
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="followUsWrapper">
+                <h3>Follow Us</h3>
+                <ul class="socialLink">
+                    <li>
+                        <a href=""><img src="./image/facebook.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./image/linkedin.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./image/vedio.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="container">
+        <ul class="footerlinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <h1 class="logo">EARTH</h1>
+        <p>2022 Earth. All right reserved.</p>
+     </footer>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
